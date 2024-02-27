@@ -1,4 +1,4 @@
-**Dierentuin - Pandapark**
+# Pandapark
 
 Maak een desktoptoepassing in C# voor de nieuwe dierentuin van de PXL.
 Sinds de
@@ -17,12 +17,9 @@ dieren uit het bestand "diereninventaris.csv" automatisch uitgelezen
 kunnen worden en getoond worden in de applicatie.
 
 ![Afbeelding met tekst, schermopname, Webpagina, Website Automatisch
-gegenereerde beschrijving](./media/image1.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image1.png)
 
-***PROGRAMMEERVOORWAARDEN***
-
-**Data**
+## Data
 
 ● Voorzie drie klasses waarin de dieren in kunnen worden
 gedigitaliseerd, Animal, Bird en Mammal.
@@ -63,10 +60,9 @@ gebruiken.
 
 ![Afbeelding met tekst, schermopname, nummer, Lettertype Automatisch
 gegenereerde
-beschrijving](./media/image2.png){width="4.197391732283465in"
-height="6.447110673665792in"}
+beschrijving](./media/image2.png)
 
-***Settings:***
+## Settings:
 
 ● Voorzie een static klasse Settings met een property die read-only is
 en de naam van het CSV bestand teruggeeft, \"diereninventaris.csv\".
@@ -76,16 +72,15 @@ het bestand op te vragen.
 
 ![Afbeelding met tekst, Lettertype, schermopname, lijn Automatisch
 gegenereerde
-beschrijving](./media/image3.png){width="1.6977045056867892in"
-height="1.301920384951881in"}
+beschrijving](./media/image3.png)
 
-***diereninventaris.csv*:**
+## diereninventaris.csv:
 
 ● In het csv bestand diereninventaris worden alle dieren van het
 pandapark opgeslagen. De eerste waarde in elke regel is een "B" of een
 "M" om aan te geven of het dier een "B" = Bird of een "M" = Mammal is.
 
-***Windows*:**
+## Windows:
 
 Binnen de applicatie worden vijf verschillende vensters gebruikt.
 Gebruik de voorziene XAML om deze vensters aan te maken in je project.
@@ -97,10 +92,9 @@ bijvoorbeeld sommige besturingselementen een naam moeten geven om er
 gegevens van op te vragen.
 
 ![Afbeelding met tekst, schermopname, Lettertype, nummer Automatisch
-gegenereerde beschrijving](./media/image4.png){width="6.3in"
-height="4.350694444444445in"}
+gegenereerde beschrijving](./media/image4.png)
 
-***MainWindow - Pandapark Manager (zie afbeelding 1)*:**
+### MainWindow - Pandapark Manager (zie afbeelding 1)
 
 ● Implementeer de navigatie op het startscherm naar de overige vier
 vensters.
@@ -132,12 +126,10 @@ dier zelf in de methode Describe().
 ***Afb2: Voorbeelden van een beschrijving***
 
 ![Afbeelding met tekst, schermopname, Webpagina, hond Automatisch
-gegenereerde beschrijving](./media/image5.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image5.png)
 
 ![Afbeelding met tekst, schermopname, Webpagina, Website Automatisch
-gegenereerde beschrijving](./media/image6.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image6.png)
 
 ● Wanneer de vogel de grootste of kleinste vleugel spanwijdte heeft, dan
 wordt dit extra vermeld. Doe deze evaluatie met een **LINQ** query.
@@ -145,16 +137,14 @@ wordt dit extra vermeld. Doe deze evaluatie met een **LINQ** query.
 ***Afb3: Voorbeeld van kleinste spanwijdte***
 
 ![Afbeelding met tekst, schermopname, Webpagina, zoogdier Automatisch
-gegenereerde beschrijving](./media/image7.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image7.png)
 
-***AllAnimals - Alle Dieren*:**
+### AllAnimals - Alle Dieren
 
 **Afb4: Alle dieren overzicht**
 
 ![Afbeelding met tekst, schermopname, hoed Automatisch gegenereerde
-beschrijving](./media/image8.png){width="6.3in"
-height="3.5506944444444444in"}
+beschrijving](./media/image8.png)
 
 ● Voorzie het inladen van een lijst van alle dieren uit de csv in
 MainWindow en geef het resultaat door aan AllAnimals.
@@ -180,16 +170,14 @@ en type van**
 
 **een aantal dieren, maar niet in de naam**
 
-![](./media/image9.png){width="6.291666666666667in"
-height="3.5520833333333335in"}
+![](./media/image9.png)
 
-***AddMammal - Zoogdier Toevoegen*:**
+### AddMammal - Zoogdier Toevoegen
 
 **Afb6: Zoogdier Toevoegen in start status**
 
 ![Afbeelding met zoogdier, tijger, Katachtigen, tekst Automatisch
-gegenereerde beschrijving](./media/image10.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image10.png)
 
 ● Wanneer de gebruiker op de "Voeg Zoogdier Toe"-knop klikt, dan worden
 de ingevulde gegevens gebruikt om een nieuw zoogdier toe te voegen aan
@@ -204,14 +192,13 @@ alle velden terug gereset naar hun start status.
 ● ***Tip:*** Je kan de property SelectedDate gebruiken om de DateTime
 uit de DatePicker te halen.
 
-***AddBird - Vogel Toevoegen*:**
+### AddBird - Vogel Toevoegen
 
 **Afb7: Vogel Toevoegen in start status**
 
 ![Afbeelding met schermopname, tekst, Besturingssysteem, software
 Automatisch gegenereerde
-beschrijving](./media/image11.png){width="6.3in"
-height="3.5506944444444444in"}
+beschrijving](./media/image11.png)
 
 ● Wanneer de gebruiker op de "Voeg Vogel Toe"-knop klikt, dan worden de
 ingevulde gegevens gebruikt om een nieuwe vogel toe te voegen aan de
@@ -230,16 +217,15 @@ uit de DatePicker
 
 te halen.
 
-***Help - Help:***
+### Help:
 
 ● Wanneer de gebruiker op de "OK"-knop klikt, dan wordt het Help venster
 gesloten.
 
 ![Afbeelding met zoogdier, primaat, aap, Mensaap Automatisch
-gegenereerde beschrijving](./media/image12.png){width="6.3in"
-height="3.5506944444444444in"}
+gegenereerde beschrijving](./media/image12.png)
 
-***Klassendiagram:***
+## Klassendiagram:
 
 ● Maak een klassendiagram aan van je project en noem deze
 
